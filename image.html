@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+<head> 
+    <title>Simple Photo Gallery</title> 
+
+    <style>          
+      .photoDiv 
+      {
+            border: 10px double blue;           
+      }
+        </style>  
+        <link rel="stylesheet" type="text/css" href="image.css">
+    
+    <script src="http://code.angularjs.org/1.2.0rc1/angular.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="image.js"></script>
+    
+</head>
+<body ng-app="photoGalleryModule" ng-controller="photoGalleryCtrl">
+    <div style="width: 60%; margin: 0 auto;"> 
+    	<center><font color="red">Simple Photo Gallery by shruti</font></center>    
+        <div id="divPhoto" class="photoDiv"></div>
+
+    </div> 
+</body>
+</html>
+
